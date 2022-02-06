@@ -2,19 +2,19 @@ package com.easv.calculator
 
 class Calculate {
 
-    fun sum(a: Int, b: Int): Int {
+    fun add(a: Double, b: Double): Double {
         return a + b
     }
 
-    fun subtract(a: Int, b: Int): Int {
+    fun subtract(a: Double, b: Double): Double {
         return a - b
     }
 
-    fun divide(a: Int, b: Int): Int {
+    fun divide(a: Double, b: Double): Double {
         return a / b
     }
 
-    fun multiply(a: Int, b: Int): Int {
+    fun multiply(a: Double, b: Double): Double {
         return a * b
     }
 }
